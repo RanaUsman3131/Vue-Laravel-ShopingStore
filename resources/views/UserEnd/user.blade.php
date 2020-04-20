@@ -36,8 +36,7 @@
 
 <body>
     <div id="app">
-         <main-component>
-             
+         <main-component>     
          </main-component>
     </div>
 
