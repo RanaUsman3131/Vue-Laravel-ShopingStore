@@ -73,7 +73,8 @@
 
 <script>
       export default{  
-        //   data(){
+       name:"navbar"
+       //   data(){
         //       return{
         //           name:""
         //       }

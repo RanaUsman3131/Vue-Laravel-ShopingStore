@@ -36,7 +36,9 @@
 
 <body>
     <div id="app">
-        <nav-bar> </nav-bar>
+         <main-component>
+             
+         </main-component>
     </div>
 
 <script src="{{ asset('js/vendor/jquery-2.2.4.min.js') }}"></script>
