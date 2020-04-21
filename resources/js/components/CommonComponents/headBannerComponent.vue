@@ -26,7 +26,5 @@ export default {
 </script>
 
 <style scoped>
-  .organic-breadcrumb {
-    margin-bottom: 100px;
-}
+  
 </style>
