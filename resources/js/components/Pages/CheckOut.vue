@@ -153,17 +153,17 @@
         </div>
     </section>
     <!--================End Checkout Area =================-->
-     <footerPart></footerPart>
+   
 </div>
 
    
 </template>
 <script>
 import headBanner from '../CommonComponents/headBannerComponent';
-import footerPart from '../CommonComponents/footerComponent'
+
 export default {
     name:"checkout",
-    components:{headBanner,footerPart},
+    components:{headBanner},
     data(){
         return{
             pageName:"Checkout"

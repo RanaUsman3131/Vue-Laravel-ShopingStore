@@ -9,7 +9,7 @@ export default {
     name:"home",
     components: { banner },
     mounted(){
-        alert('gfd');
+      
     }
 }
 </script>

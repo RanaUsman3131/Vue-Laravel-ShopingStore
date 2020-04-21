@@ -24,8 +24,8 @@
 									<li class="nav-item"><router-link class="nav-link" to="/category">Shop Category</router-link></li>
 									<li class="nav-item"><router-link class="nav-link" to="singleProduct">Product Details</router-link></li>
 									<li class="nav-item"><router-link class="nav-link" to="/checkout">Product Checkout</router-link></li>
-									<li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
-									<li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
+									<li class="nav-item"><router-link class="nav-link" to="/shoppingCart">Shopping Cart</router-link></li>
+									<li class="nav-item"><router-link class="nav-link" to="/Confirmation">Confirmation</router-link></li>
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
@@ -33,7 +33,7 @@
 								 aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-									<li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a></li>
+									<li class="nav-item"><router-link class="nav-link" to="/TrackingOrder">Tracking</router-link></li>
 									
 								</ul>
 							</li>
@@ -93,6 +93,5 @@
 
 <style scoped>
 
-</style>>
-
 </style>
+
