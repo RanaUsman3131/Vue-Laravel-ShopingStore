@@ -57,7 +57,20 @@ export default {
         return {
             img:"http://localhost:8000/img/banner/banner-img.png"
         }
-    }
+	},
+	watch:{
+		car:function(){
+			 $(".active-banner-slider").owlCarousel({
+        items: 1,
+        autoplay: false,
+        autoplayTimeout: 5000,
+        loop: true,
+        nav: true,
+        navText: ["<img src='img/banner/prev.png'>", "<img src='img/banner/next.png'>"],
+        dots: false
+    });
+		}
+	}
 }
 </script>
 <style scoped>
