@@ -1,6 +1,6 @@
 <template>
 <div>
-  <headBanner></headBanner>
+  <headBanner :pageName="pageName"></headBanner>
       <categoryProduct></categoryProduct>
      <dealOfWeek></dealOfWeek>
 </div>
@@ -14,7 +14,12 @@ import dealOfWeek from '../partialComponents/DealOfWeekComponent';
 categoryProduct
      export default {
          name:"category",
-         components:{headBanner,categoryProduct,dealOfWeek}
+         components:{headBanner,categoryProduct,dealOfWeek},
+         data(){
+             return{
+                 pageName:"Shop Category"
+             }
+         }
 
      }
 </script>

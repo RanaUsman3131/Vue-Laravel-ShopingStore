@@ -22,7 +22,7 @@
 								 aria-expanded="false">Shop</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><router-link class="nav-link" to="/category">Shop Category</router-link></li>
-									<li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
+									<li class="nav-item"><router-link class="nav-link" to="singleProduct">Product Details</router-link></li>
 									<li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
 									<li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
 									<li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
